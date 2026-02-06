@@ -1,5 +1,11 @@
 import React, { useState } from 'react';
-import { View, Text, TextInput, ScrollView, TouchableOpacity } from 'react-native';
+import {
+  View,
+  Text,
+  TextInput,
+  ScrollView,
+  TouchableOpacity
+} from 'react-native';
 
 const FOOD_DB = [
   { name: 'Paneer Butter Masala', calories: 420, carbs: 18, protein: 14, fat: 34 },
